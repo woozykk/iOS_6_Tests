@@ -19,6 +19,7 @@
 		C7CE64B2162F4882009FDD97 /* character.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CE64B0162F4882009FDD97 /* character.json */; };
 		C7CE64B3162F4882009FDD97 /* guild.json in Resources */ = {isa = PBXBuildFile; fileRef = C7CE64B1162F4882009FDD97 /* guild.json */; };
 		C7CE64B6162F48B9009FDD97 /* CharacterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CE64B5162F48B9009FDD97 /* CharacterTests.m */; };
+		C7CE64BA162F560C009FDD97 /* TestFile in Resources */ = {isa = PBXBuildFile; fileRef = C7CE64B9162F560C009FDD97 /* TestFile */; };
 		CB9FDC4015E9872D00B3713E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		CB9FDC4215E9872D00B3713E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
 		CB9FDC4415E9872D00B3713E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4315E9872D00B3713E /* CoreGraphics.framework */; };
@@ -102,6 +103,7 @@
 		C7CE64B1162F4882009FDD97 /* guild.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guild.json; sourceTree = "<group>"; };
 		C7CE64B4162F48B9009FDD97 /* CharacterTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterTests.h; sourceTree = "<group>"; };
 		C7CE64B5162F48B9009FDD97 /* CharacterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterTests.m; sourceTree = "<group>"; };
+		C7CE64B9162F560C009FDD97 /* TestFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TestFile; sourceTree = "<group>"; };
 		CB9FDC3B15E9872D00B3713E /* GuildBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuildBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB9FDC3F15E9872D00B3713E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CB9FDC4115E9872D00B3713E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -249,9 +251,18 @@
 			path = testdata;
 			sourceTree = "<group>";
 		};
+		C7CE64B8162F55F3009FDD97 /* test-reports */ = {
+			isa = PBXGroup;
+			children = (
+				C7CE64B9162F560C009FDD97 /* TestFile */,
+			);
+			path = "test-reports";
+			sourceTree = "<group>";
+		};
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
+				C7CE64B8162F55F3009FDD97 /* test-reports */,
 				C7CE64AF162F4882009FDD97 /* testdata */,
 				CB9FDCEC15E9B31400B3713E /* images */,
 				CB9FDCC115E9A8DA00B3713E /* AFNetworking */,
@@ -528,6 +539,7 @@
 				C7CE6498162F4316009FDD97 /* InfoPlist.strings in Resources */,
 				C7CE64B2162F4882009FDD97 /* character.json in Resources */,
 				C7CE64B3162F4882009FDD97 /* guild.json in Resources */,
+				C7CE64BA162F560C009FDD97 /* TestFile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
