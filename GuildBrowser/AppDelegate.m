@@ -39,7 +39,7 @@
 
 - (void)customizeAppearance
 {
-    
+    //test for commit
     // customize the appearance of the navigation bar and toolbar
     UIImage *navBarBackground = [[UIImage imageNamed:@"toolbar.png"] resizableImageWithCapInsets:UIEdgeInsetsMake(25, 25, 25, 25)];
     
