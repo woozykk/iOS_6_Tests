@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C7258B5F162F63FE004EA2EE /* Kerry_Knight_All_Ad_Hoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = C7258B5E162F63FE004EA2EE /* Kerry_Knight_All_Ad_Hoc.mobileprovision */; };
+		C74DA5CB162F8FA7004C8016 /* Kerry_Knight_All_Ad_Hoc.mobileprovision in Resources */ = {isa = PBXBuildFile; fileRef = C74DA5CA162F8FA7004C8016 /* Kerry_Knight_All_Ad_Hoc.mobileprovision */; };
 		C7CE6490162F4316009FDD97 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC5D15E9872E00B3713E /* SenTestingKit.framework */; };
 		C7CE6491162F4316009FDD97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC3F15E9872D00B3713E /* UIKit.framework */; };
 		C7CE6492162F4316009FDD97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9FDC4115E9872D00B3713E /* Foundation.framework */; };
@@ -94,7 +94,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7258B5E162F63FE004EA2EE /* Kerry_Knight_All_Ad_Hoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kerry_Knight_All_Ad_Hoc.mobileprovision; sourceTree = "<group>"; };
+		C74DA5CA162F8FA7004C8016 /* Kerry_Knight_All_Ad_Hoc.mobileprovision */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kerry_Knight_All_Ad_Hoc.mobileprovision; sourceTree = "<group>"; };
 		C7CE648F162F4315009FDD97 /* GuildBrowserLogicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuildBrowserLogicTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7CE6495162F4316009FDD97 /* GuildBrowserLogicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuildBrowserLogicTests-Info.plist"; sourceTree = "<group>"; };
 		C7CE6497162F4316009FDD97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -264,7 +264,7 @@
 		CB9FDC3015E9872D00B3713E = {
 			isa = PBXGroup;
 			children = (
-				C7258B5E162F63FE004EA2EE /* Kerry_Knight_All_Ad_Hoc.mobileprovision */,
+				C74DA5CA162F8FA7004C8016 /* Kerry_Knight_All_Ad_Hoc.mobileprovision */,
 				C7CE64B8162F55F3009FDD97 /* test-reports */,
 				C7CE64AF162F4882009FDD97 /* testdata */,
 				CB9FDCEC15E9B31400B3713E /* images */,
@@ -572,7 +572,7 @@
 				CB9FDD1315E9B31400B3713E /* profile_shield@2x.png in Resources */,
 				CB9FDD1415E9B31400B3713E /* toolbar.png in Resources */,
 				CB9FDD1515E9B31400B3713E /* toolbar@2x.png in Resources */,
-				C7258B5F162F63FE004EA2EE /* Kerry_Knight_All_Ad_Hoc.mobileprovision in Resources */,
+				C74DA5CB162F8FA7004C8016 /* Kerry_Knight_All_Ad_Hoc.mobileprovision in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -759,8 +759,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Kerry Knight (98MP6F7M6L)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kerry Knight (98MP6F7M6L)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kerry Knight";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -774,8 +773,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PROVISIONING_PROFILE = "EFDD6838-42B7-4B6B-9FEC-523D33C00A00";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EFDD6838-42B7-4B6B-9FEC-523D33C00A00";
+				PROVISIONING_PROFILE = "2C604C3E-3E30-49F5-BE43-51F91181E215";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -789,8 +787,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Kerry Knight (98MP6F7M6L)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kerry Knight (98MP6F7M6L)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kerry Knight";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -798,8 +795,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "EFDD6838-42B7-4B6B-9FEC-523D33C00A00";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EFDD6838-42B7-4B6B-9FEC-523D33C00A00";
+				PROVISIONING_PROFILE = "2C604C3E-3E30-49F5-BE43-51F91181E215";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 				VALIDATE_PRODUCT = YES;
